@@ -11,3 +11,8 @@ def main(y, z, x):
 
 
 print(main([0.47, -0.16, 0.2, 0.21, -0.63], [-0.89, -0.2, 0.58, -0.18, 0.68], [-0.91, 0.02, 0.93, -0.4, -0.04]))
+
+alpha = range(ord('А'), ord('Я') + 1)
+print(type(alpha), alpha)
+res = ' '.join(chr(c) for c in alpha)
+print(res)
