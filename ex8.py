@@ -23,4 +23,4 @@ def main(s):
     return d
 
 a = '[[ \\begin define isti : #8216; \\end. \\begin define lale_910 :#-3607;\n\\end. \\begin define quatied: #-8131; \\end.]]'
-main(a)
+print(main(a))
